@@ -37,9 +37,9 @@ const quotes = [
 ***/
 
 // takes a max value, and returns any number from 0 to max
-let getRandomNumber = (max) => Math.floor(Math.random() * max) 
+const getRandomNumber = (max) => Math.floor(Math.random() * max) 
 
-let getRandomQuote = () => {
+const getRandomQuote = () => {
   let index = getRandomNumber(quotes.length);
 // console.log(index);
   return quotes[index];
@@ -56,7 +56,7 @@ function getRandomColor() {
   return `rgb(${getRandomNumber(256)}, ${getRandomNumber(256)}, ${getRandomNumber(256)})`;
 }
 
-let setBackgroundColor = () => {
+const setBackgroundColor = () => {
   document.body.style.backgroundColor = getRandomColor();
 }
 
@@ -64,7 +64,7 @@ let setBackgroundColor = () => {
  * `printQuote` function
 ***/
 
-let printQuote = () => {
+const printQuote = () => {
   // set a new background color after every click event
   setBackgroundColor(); 
   let quote = getRandomQuote();
