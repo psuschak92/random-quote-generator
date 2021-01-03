@@ -74,9 +74,13 @@ const quotes = [
 // takes a max value, and returns any number from 0 to max - 1
 const getRandomNumber = (max) => Math.floor(Math.random() * max)
 
+let prevIndex = -1;
 const getRandomQuote = () => {
-  const index = getRandomNumber(quotes.length);
-  // console.log(index);
+  let index = getRandomNumber(quotes.length);
+  while (prevIndex === index) {
+      index = getRandomNumber(quotes.length);
+  }
+  prevIndex = index;
   return quotes[index];
 }
 
