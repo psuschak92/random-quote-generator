@@ -68,6 +68,34 @@ const quotes = [
     citation: '', 
     year: NaN, 
     tag: '' 
+  },
+  { 
+    quote: 'Inspiration does exist, but it must find you working.', 
+    source: 'Picasso', 
+    citation: '', 
+    year: NaN, 
+    tag: '' 
+  },
+  { 
+    quote: 'Every act of creation is first of all an act of destruction.', 
+    source: 'Picasso', 
+    citation: '', 
+    year: NaN, 
+    tag: '' 
+  },
+  { 
+    quote: 'The purpose of art is washing the dust of daily life off our souls.', 
+    source: 'Picasso', 
+    citation: '', 
+    year: NaN, 
+    tag: '' 
+  },
+  { 
+    quote: 'The chief enemy of creativity is ‘good’ sense.', 
+    source: 'Picasso', 
+    citation: '', 
+    year: NaN, 
+    tag: '' 
   }
 ];
 
